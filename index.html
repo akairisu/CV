@@ -10,16 +10,22 @@
             text-align: center;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
         }
         iframe {
-            width: 100%;
+            width: 90vw;
             height: 90vh;
+            max-width: 100%;
+            max-height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
-    <h1>PDF Viewer</h1>
-    <iframe src="Exchange_CV.pdf" title="PDF Viewer"></iframe>
+    <iframe src="Exchange_CV.pdf#view=FitH" title="PDF Viewer"></iframe>
 </body>
 </html>
